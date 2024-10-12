@@ -1,8 +1,7 @@
 if status is-interactive
     alias ll="exa -l -g --icons"
     # Commands to run in interactive sessions can go here
-    # starship init fish | source
-    #starship init fish | source
+    starship init fish | source
 end
 
 # fnm
@@ -21,3 +20,5 @@ end
 alias vim="nvim"
 alias ta="tmux attach"
 alias t="tmux"
+
+
